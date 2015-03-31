@@ -203,6 +203,8 @@
   border-radius: 4px;
   cursor: pointer;
   white-space: nowrap;
+  border: none;
+  padding: 0;
 }
 
 .daterangepicker td.off {
