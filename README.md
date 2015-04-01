@@ -1,4 +1,4 @@
-# Date Range Picker for Twitter Bootstrap
+# Date Range Picker for Twitter Bootstrap, with a splash of Bourbon/Neat.
 
 _Description from DateRangePicker for Twitter Bootstrap_
 
@@ -14,12 +14,13 @@ into the text box. Otherwise, you can provide a custom callback function to rece
 
 ## Installation and Usage
 
-This component relies on [Twitter Bootstrap](http://twitter.github.com/bootstrap/), 
-[momentjs](http://www.momentjs.com/) and [jQuery](http://jquery.com/).
+This component relies on [momentjs](http://www.momentjs.com/) and [jQuery](http://jquery.com/).
 
 Basic usage (with Bootstrap 3)
-
 (Suffix `daterangepicker` with `-bs2` or `-bs3` for your version of Bootstrap.)
+
+Basic usage (with Bourbon/Neat)
+(Suffix `daterangepicker` with `-bourbon` to compile. It is a SCSS file.)
 
 ```
 
@@ -38,7 +39,7 @@ gem 'bootstrap-daterangepicker-rails'
 
 /*
  *= require bootstrap
- *= require daterangepicker-bs3
+ *= require daterangepicker-bourbon
  */
  
  
