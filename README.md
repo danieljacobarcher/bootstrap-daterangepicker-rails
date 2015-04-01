@@ -15,6 +15,7 @@ into the text box. Otherwise, you can provide a custom callback function to rece
 ## Installation and Usage
 
 This component relies on [momentjs](http://www.momentjs.com/) and [jQuery](http://jquery.com/).
+If using the Bourbon SCSS file instead of Bootstrap, you must include Bourbon, Neat, and Bitters in your app before importing this.
 
 Basic usage (with Bootstrap 3)
 (Suffix `daterangepicker` with `-bs2` or `-bs3` for your version of Bootstrap.)
